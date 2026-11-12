@@ -1,0 +1,4 @@
+﻿fase;fecha_hora_recepcion_pc;segundos_desde_inicio;temperatura_aire_c;humedad_relativa_aire_pct;estado
+VERIFICACION_DHT22;2026-11-12T13:07:19.349-05:00;2.212;29.60;71.10;OK
+VERIFICACION_DHT22;2026-11-12T13:07:29.380-05:00;12.243;29.50;70.80;OK
+VERIFICACION_DHT22;2026-11-12T13:07:32.388-05:00;15.251;;;FIN_MANUAL

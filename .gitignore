@@ -2,7 +2,7 @@
 *.env
 
 archivos_procesados.json
-
-
+*code-workspace
+.code-workspace
 __pycache__/
 *.pyc
