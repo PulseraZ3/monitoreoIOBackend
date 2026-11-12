@@ -12,7 +12,7 @@ cliente = MongoClient(uri)
 try:
     
     cliente.admin.command("ping")
-    db = cliente["monitoreoiot"]
+    db = cliente["monitoreo_iot"]
     mediciones = db["mediciones_dht22"]
     mediciones.create_index(
         [

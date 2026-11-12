@@ -14,7 +14,7 @@ cliente = MongoClient(
 try:
     cliente.admin.command("ping")
     print("conexion")
-    db = cliente["monitoreoiot"]
+    db = cliente["monitoreo_iot"]
     print("Base de datos :",db.name)
 except Exception as error:
     print("Error conexion", error)
